@@ -58,9 +58,10 @@ time, mark, audio, video {
 body {
     background-color: #fff;
     
-    .dark-mode.black-background {
-        background-color: black
-        }
+    .dark-mode {
+        background-color: black;
+        color: white;
+      }
   }
   
 
