@@ -55,15 +55,13 @@ time, mark, audio, video {
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
+@media (prefers-color-scheme: dark){
 body {
     background-color: #fff;
     
-    .dark-mode {
-        background-color: black;
-        color: white;
-      }
+   
   }
-  
+}
 
      
   
@@ -220,7 +218,7 @@ img{
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-@media screen and (min-width: 786px)and(max-width: 1023px){
+@media screen and (min-width: 786px){
      header, footer{
         background-color: var(--black);
         color: var(--white);
